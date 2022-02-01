@@ -1,9 +1,10 @@
+import { Container } from "react-bootstrap"
 import "./App.css"
 
 const About = () => {
   return (
     <div className="About">
-      <div className="container">
+      <Container>
         <div className="about" id="about">
           <ul className="row justify-content-around">
             <li className="col-md-4 about-skills">
@@ -68,7 +69,7 @@ const About = () => {
         <hr />
         I like to workout, do sports to stay healthy and in shape! */}
         </div>
-      </div>
+      </Container>
     </div>
   )
 }

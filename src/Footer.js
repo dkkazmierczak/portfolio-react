@@ -1,9 +1,10 @@
+import { Container } from "react-bootstrap"
 import "./App.css"
 
 const Footer = () => {
   return (
     <div className="Footer">
-      <div className="container">
+      <Container>
         <footer>
           <div className="contact-links">
             <a href="mailto:dkl.kazmierczak@gmail.com">
@@ -24,7 +25,7 @@ const Footer = () => {
             </a>
           </div>
         </footer>
-      </div>
+      </Container>
     </div>
   )
 }

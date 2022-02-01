@@ -1,10 +1,11 @@
+import { Container } from "react-bootstrap"
 import "./App.css"
 
 const Navbar = () => {
   return (
     <div className="Navbar">
       <nav className="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div className="container">
+        <Container>
           <a
             className="navbar-brand nav-home"
             href="/index.html"
@@ -49,7 +50,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-        </div>
+        </Container>
       </nav>
     </div>
   )

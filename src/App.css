@@ -18,29 +18,29 @@ body {
   color: var(--primary-color);
 }
 
-.navbar {
+.Navbar .navbar {
   padding: 20px 0;
   background-color: rgba(0, 0, 0, 0.4) !important;
   -webkit-backdrop-filter: blur(8px) !important;
   backdrop-filter: blur(8px) !important;
 }
 
-.nav-home {
+.Navbar .nav-home {
   font-size: 24px;
 }
 
-nav li {
+.Navbar nav li {
   padding-left: 30px;
 }
 
-nav a {
+.Navbar nav a {
   color: var(--primary-color) !important;
   font-size: 18px;
   font-weight: 700;
   transition: all 150ms ease-in-out !important;
 }
 
-nav a:hover {
+.Navbar nav a:hover {
   color: var(--third-color) !important;
 }
 
@@ -62,11 +62,11 @@ h3 {
   padding-bottom: 40px;
 }
 
-.hero {
+.Hero .hero {
   padding-top: 240px;
 }
 
-.hero a {
+.Hero .hero a {
   color: var(--secondary-color);
   font-size: 16px;
   font-weight: 500;
@@ -75,11 +75,11 @@ h3 {
   transition: all 150ms ease-in-out;
 }
 
-.hero a:hover {
+.Hero .hero a:hover {
   color: rgba(255, 255, 255, 0.7);
 }
 
-.hero img {
+.Hero .hero img {
   width: 400px;
   border-radius: var(--border-radius);
   display: block;
@@ -87,23 +87,23 @@ h3 {
   float: right;
 }
 
-.about {
+.About .about {
   margin: 120px 0 150px;
   padding: 130px 0 100px;
 }
 
-.about p {
+.About .about p {
   font-size: 25px;
   text-align: center;
   margin: 0;
 }
 
-.about ul {
+.About .about ul {
   padding: 0;
   margin: 100px 0;
 }
 
-.about-skills {
+.About .about-skills {
   background-color: rgba(0, 0, 0, 0.2) !important;
   -webkit-backdrop-filter: blur(8px) !important;
   backdrop-filter: blur(8px) !important;
@@ -115,45 +115,45 @@ h3 {
   box-shadow: 0 5px 30px rgba(102, 46, 237, 0.7);
 }
 
-.about-icons {
+.About .about-icons {
   color: rgba(255, 255, 255);
   font-size: 50px;
   display: flex;
   justify-content: space-evenly;
 }
 
-.icon-bootstrap {
+.About .icon-bootstrap {
   color: #8d51e6;
 }
 
-.skills-paragraph {
+.About .skills-paragraph {
   color: white;
   font-size: 20px;
   padding-top: 30px;
 }
 
-.skills-link {
+.About .skills-link {
   color: var(--third-color);
   text-decoration: none;
   transition: all 150ms ease-in-out;
 }
 
-.skills-link:hover {
+.About .skills-link:hover {
   color: rgb(125, 70, 255) !important;
 }
 
-.container-projects {
+.Projects .container-projects {
   background: white;
   font-family: Poppins, sans-serif;
   max-width: 100%;
   padding: 0 60px;
 }
 
-.projects {
+.Projects .projects {
   padding: 0 120px 50px 120px;
 }
 
-.title-projects {
+.Projects .title-projects {
   font-weight: 300;
   color: black;
   text-align: center;
@@ -162,118 +162,118 @@ h3 {
   padding: 100px 0;
 }
 
-.projects h2 {
+.Projects .projects h2 {
   font-family: Poppins, sans-serif;
   color: black;
   font-size: 60px;
   padding-top: 80px;
 }
 
-.projects-p {
+.Projects .projects-p {
   font-size: 20px;
   line-height: 30px;
   padding: 20px 20px 20px 0;
 }
 
-.projects-credit {
+.Projects .projects-credit {
   padding-top: 20px;
   padding-bottom: 50px;
   margin: 0;
 }
 
-.projects-link {
+.Projects .projects-link {
   background: black;
   color: white;
   text-decoration: none;
   padding: 10px;
 }
 
-.projects-link:hover {
+.Projects .projects-link:hover {
   color: white;
   text-decoration: underline;
 }
 
-.projects img {
+.Projects .projects img {
   max-width: 100%;
   display: block;
   margin: 0 auto;
 }
 
-.container-contact {
+.Contact .container-contact {
   max-width: 100%;
   background: var(--secondary-color);
   padding: 350px 0;
 }
 
-.contact {
+.Contact .contact {
   text-align: center;
   font-size: 40px;
 }
 
-.contact-email {
+.Contact .contact-email {
   font-size: 20px;
 }
 
-.contact-email a {
+.Contact .contact-email a {
   color: var(--third-color);
   text-decoration: none;
   transition: all 200ms ease-in-out;
 }
 
-.contact-email a:hover {
+.Contact .contact-email a:hover {
   text-decoration: underline;
 }
 
-.contact-links {
+.Footer .contact-links {
   margin: 40px 0;
   display: flex;
   justify-content: center;
 }
 
-.contact-links a {
+.Footer .contact-links a {
   color: white;
   font-size: 25px;
   margin: 0 30px;
   transition: all 150ms ease-in-out;
 }
 
-.contact-links a:hover {
+.Footer .contact-links a:hover {
   color: rgba(255, 255, 255, 0.7);
 }
 
 @media (max-width: 1900px) {
-  .container-projects {
+  .Projects .container-projects {
     padding: 0 12px;
   }
 
-  .projects {
+  .Projects .projects {
     padding: 0;
   }
 
-  .title-projects {
+  .Projects .title-projects {
     font-size: 36px;
     padding: 40px 0;
   }
 
-  .projects h2 {
+  .Projects .projects h2 {
     font-size: 40px;
     padding: 0;
     margin: 0;
     text-align: center;
   }
 
-  .projects-p {
+  .Projects .projects-p {
     font-size: 15px;
     text-align: center;
     padding: 20px 0 0 0;
   }
 
-  .projects-credit {
+  .Projects .projects-credit {
     font-size: 10px;
     text-align: center;
   }
 
-  .projects-link {
+  .Projects .projects-link {
     display: block;
     margin: 0 auto;
     width: 150px;
@@ -281,25 +281,25 @@ h3 {
 }
 
 @media (max-width: 992px) {
-  .projects h2 {
+  .Projects .projects h2 {
     padding-top: 20px;
   }
 
-  .projects img {
+  .Projects .projects img {
     max-width: 60%;
   }
 }
 
 @media (max-width: 768px) {
-  .nav-home {
+  .Navbar .nav-home {
     font-size: 18px;
   }
 
-  nav li {
+  .Navbar nav li {
     padding: 0;
   }
 
-  nav a {
+  .Navbar nav a {
     font-size: 14px;
   }
 
@@ -317,23 +317,23 @@ h3 {
     margin: 0;
   }
 
-  .hero {
+  .Hero .hero {
     padding: 100px 0 0;
     text-align: center;
   }
 
-  .hero img {
+  .Hero .hero img {
     width: 200px;
     margin-bottom: 30px;
     float: none;
     margin: 0 auto;
   }
 
-  .hero .big {
+  .Hero .hero .big {
     display: none;
   }
 
-  .hero .small {
+  .Hero .hero .small {
     font-size: 12px;
     transition: all 200ms ease-in-out;
     padding: 30px 10px;
@@ -341,57 +341,57 @@ h3 {
     margin: 0 auto;
   }
 
-  .about {
+  .About .about {
     margin: 0;
     padding: 100px 0;
   }
 
-  .about p,
+  .About .about p,
   .skills-paragraph {
     font-size: 15px;
   }
 
-  .about-skills {
+  .About .about-skills {
     padding: 30px;
     max-width: 80%;
     margin-top: 10px;
   }
 
-  .about ul {
+  .About .about ul {
     margin: 0;
   }
 
-  .about-icons {
+  .About .about-icons {
     font-size: 25px;
   }
 
-  .container-contact {
+  .Contact .container-contact {
     padding: 250px 0;
   }
 
-  .contact {
+  .Contact .contact {
     font-size: 25px;
   }
 
-  .contact-email {
+  .Contact .contact-email {
     font-size: 14px;
   }
 
-  .contact-links {
+  .Footer .contact-links {
     margin: 20px 0;
   }
 
-  .contact-links a {
+  .Footer .contact-links a {
     font-size: 18px;
   }
 }
 
 @media (min-width: 769px) {
-  .hero .big {
+  .Hero .hero .big {
     display: block;
   }
 
-  .hero .small {
+  .Hero .hero .small {
     display: none;
   }
 }

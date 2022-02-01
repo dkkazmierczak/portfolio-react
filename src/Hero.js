@@ -1,11 +1,12 @@
 import profilePicture from "./images/profile.jpeg"
+import { Container } from "react-bootstrap"
 
 import "./App.css"
 
 const Hero = () => {
   return (
     <div className="Hero">
-      <div className="container">
+      <Container>
         <div className="hero">
           <div className="row">
             <div className="col-md-6 p-0">
@@ -24,7 +25,7 @@ const Hero = () => {
             </a>
           </div>
         </div>
-      </div>
+      </Container>
     </div>
   )
 }
