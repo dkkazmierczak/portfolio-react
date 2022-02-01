@@ -38,7 +38,8 @@ const Projects = () => {
               href="https://peaceful-bell-2f5896.netlify.app/"
               className="projects-link"
               target="_blank"
-              title="Weather project">
+              title="Weather project"
+              rel="noreferrer">
               See the website
             </a>
           </div>

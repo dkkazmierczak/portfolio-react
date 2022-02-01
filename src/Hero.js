@@ -17,7 +17,7 @@ const Hero = () => {
               </a>
             </div>
             <div className="col-md-6 p-0">
-              <img src={profilePicture} alt="Profile picture" />
+              <img src={profilePicture} alt="Profile" />
             </div>
             <a href="/index.html#about" className="small">
               Learn more about me

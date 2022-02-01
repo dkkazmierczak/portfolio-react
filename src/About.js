@@ -11,7 +11,8 @@ const About = () => {
                 <a
                   href="https://www.linkedin.com/in/dkkazmierczak/"
                   target="_blank"
-                  title="LinkedIn Profile">
+                  title="LinkedIn Profile"
+                  rel="noreferrer">
                   <i className="fab fa-linkedin"></i>
                 </a>
               </div>
@@ -20,7 +21,8 @@ const About = () => {
                 <a
                   href="https://www.shecodes.io/certificates/bd5bfaa7853192a3624126cd77d00fde"
                   className="skills-link"
-                  target="_blank">
+                  target="_blank"
+                  rel="noreferrer">
                   certificated
                 </a>
                 {""} by SheCodes
