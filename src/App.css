@@ -146,11 +146,12 @@ h3 {
   background: white;
   font-family: Poppins, sans-serif;
   max-width: 100%;
-  padding: 0 60px;
+  padding: 0 20px;
+  text-align: center;
 }
 
 .Projects .projects {
-  padding: 0 120px 50px 120px;
+  padding: 150px 0 0;
 }
 
 .Projects .title-projects {
@@ -159,20 +160,20 @@ h3 {
   text-align: center;
   font-size: 48px;
   margin: 0;
-  padding: 100px 0;
+  padding: 80px 0 40px;
 }
 
 .Projects .projects h2 {
   font-family: Poppins, sans-serif;
   color: black;
-  font-size: 60px;
-  padding-top: 80px;
+  font-size: 40px;
+  padding: 0;
 }
 
 .Projects .projects-p {
   font-size: 20px;
   line-height: 30px;
-  padding: 20px 20px 20px 0;
+  padding: 20px 0 0;
 }
 
 .Projects .projects-credit {
@@ -242,35 +243,21 @@ h3 {
 }
 
 @media (max-width: 1900px) {
-  .Projects .container-projects {
-    padding: 0 12px;
-  }
-
-  .Projects .projects {
-    padding: 200px 0 0;
-  }
-
   .Projects .title-projects {
     font-size: 36px;
-    padding: 80px 0 40px;
   }
 
   .Projects .projects h2 {
-    font-size: 40px;
     padding: 0;
     margin: 0;
-    text-align: center;
   }
 
   .Projects .projects-p {
     font-size: 15px;
-    text-align: center;
-    padding: 20px 0 0 0;
   }
 
   .Projects .projects-credit {
     font-size: 10px;
-    text-align: center;
   }
 
   .Projects .projects-link {
