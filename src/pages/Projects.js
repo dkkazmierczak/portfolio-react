@@ -1,8 +1,8 @@
-import FirstProject from "./Projects/FirstProject"
-import SecondProject from "./Projects/SecondProject"
+import FirstProject from "../Projects/FirstProject"
+import SecondProject from "../Projects/SecondProject"
 import { Container } from "react-bootstrap"
 
-import "./App.css"
+import "../App.css"
 
 const Projects = () => {
   return (

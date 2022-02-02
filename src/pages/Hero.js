@@ -1,7 +1,7 @@
-import profilePicture from "./images/profile.jpeg"
+import profilePicture from "../images/profile.jpeg"
 import { Container } from "react-bootstrap"
 
-import "./App.css"
+import "../App.css"
 
 const Hero = () => {
   return (

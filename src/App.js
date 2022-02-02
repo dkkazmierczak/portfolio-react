@@ -1,8 +1,8 @@
 import Navbar from "./Navbar"
-import Hero from "./Hero"
-import About from "./About"
-import Projects from "./Projects"
-import Contact from "./Contact"
+import Hero from "./pages/Hero"
+import About from "./pages/About"
+import Projects from "./pages/Projects"
+import Contact from "./pages/Contact"
 import Footer from "./Footer"
 
 import "./App.css"
