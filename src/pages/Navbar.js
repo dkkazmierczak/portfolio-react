@@ -1,5 +1,5 @@
 import { Container } from "react-bootstrap"
-import "./App.css"
+import "../App.css"
 
 const Navbar = () => {
   return (
@@ -39,10 +39,6 @@ const Navbar = () => {
                   Projects
                 </a>
               </li>
-
-              {/* <li className="nav-item">
-            <a className="nav-link" href="/index.html#recipies">Recipies</a>
-          </li> */}
               <li className="nav-item">
                 <a className="nav-link" href="/index.html#contact">
                   Contact
