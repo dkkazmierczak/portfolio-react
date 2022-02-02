@@ -1,3 +1,7 @@
+* {
+  scroll-behavior: smooth;
+}
+
 :root {
   --primary-font-family: "Nunito", sans-serif;
   --primary-bg-color: linear-gradient(
