@@ -1,9 +1,9 @@
-import Navbar from "./pages/Navbar"
-import Hero from "./pages/Hero"
-import About from "./pages/About"
-import Projects from "./pages/Projects"
-import Contact from "./pages/Contact"
-import Footer from "./Footer"
+import Navbar from "./sections/Navbar"
+import Hero from "./sections/Hero"
+import About from "./sections/About"
+import Projects from "./sections/Projects"
+import Contact from "./sections/Contact"
+import Footer from "./sections/Footer"
 
 import "./App.css"
 
