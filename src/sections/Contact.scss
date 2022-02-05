@@ -1,0 +1,42 @@
+@import "../sass/main.scss";
+
+.Contact {
+  .container-contact {
+    max-width: 100%;
+    background: white;
+    padding: 250px 0;
+  }
+
+  .contact {
+    text-align: center;
+    font-size: 36px;
+
+    .contact-email {
+      font-size: 18px;
+    }
+
+    .contact-email a {
+      color: $thirdColor;
+    }
+
+    .contact-email a:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .Contact {
+    .container-contact {
+      padding: 250px 0;
+    }
+
+    .contact {
+      font-size: 25px;
+
+      .contact-email {
+        font-size: 14px;
+      }
+    }
+  }
+}

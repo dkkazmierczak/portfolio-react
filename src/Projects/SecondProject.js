@@ -1,5 +1,4 @@
 import WeatherAppPicture from "../images/weatherapp.png"
-import "../App.css"
 
 const SecondProject = () => {
   return (
@@ -23,7 +22,7 @@ const SecondProject = () => {
             If you are polish, just click the button "PL" to go to the website
             in polish version.
             <br />
-            Website was built during 8 week workshop SheCodes Plus 👩🏼‍💻
+            Website was built during the 8 week long workshop SheCodes Plus 👩🏼‍💻
           </p>
           <p className="projects-credit">
             Design & Development - Dominika Kaźmierczak

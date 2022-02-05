@@ -1,0 +1,102 @@
+@import "../sass/main.scss";
+
+.Projects {
+  .container-projects {
+    background: white;
+    font-family: $secondFontFamily;
+    max-width: 100%;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .title-projects {
+    font-weight: 300;
+    color: black;
+    text-align: center;
+    font-size: 48px;
+    margin: 0;
+    padding: 40px 0;
+  }
+
+  .projects {
+    padding: 100px 0;
+
+    h2 {
+      color: black;
+      font-size: 40px;
+    }
+
+    .projects-p {
+      font-size: 20px;
+      line-height: 30px;
+    }
+
+    .projects-credit {
+      padding: 40px 0;
+    }
+
+    .projects-link {
+      background: black;
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+    }
+
+    .projects-link:hover {
+      color: white;
+      text-decoration: underline;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media (max-width: 1900px) {
+  .Projects {
+    .title-projects {
+      font-size: 36px;
+    }
+
+    .projects {
+      .projects-p {
+        font-size: 15px;
+      }
+
+      .projects-credit {
+        font-size: 10px;
+      }
+
+      .projects-link {
+        display: block;
+        margin: 0 auto;
+        width: 150px;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .Projects {
+    .projects {
+      padding: 30px 0;
+
+      h2 {
+        padding: 30px 0;
+      }
+
+      img {
+        max-width: 60%;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .Projects .projects h2 {
+    font-size: 30px;
+  }
+}

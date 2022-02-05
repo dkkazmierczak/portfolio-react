@@ -1,0 +1,50 @@
+@import "../sass/main.scss";
+
+.Navbar {
+  .navbar {
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    -webkit-backdrop-filter: blur(8px) !important;
+    backdrop-filter: blur(8px) !important;
+  }
+
+  .nav-home {
+    font-size: 24px;
+    color: $mainColor;
+  }
+
+  .nav-link {
+    color: $mainColor !important;
+  }
+
+  nav li {
+    padding-left: 30px;
+  }
+
+  nav a {
+    color: $mainColor;
+    font : {
+      size: 18px;
+      weight: 700;
+    }
+    transition: all 150ms ease-in-out !important;
+  }
+
+  nav a:hover {
+    color: $thirdColor !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .Navbar .nav-home {
+    font-size: 18px;
+  }
+
+  .Navbar nav li {
+    padding: 0;
+  }
+
+  .Navbar nav a {
+    font-size: 14px;
+  }
+}

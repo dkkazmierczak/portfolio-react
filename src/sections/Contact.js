@@ -1,5 +1,5 @@
 import { Container } from "react-bootstrap"
-import "../App.css"
+import "./Contact.scss"
 
 const Contact = () => {
   return (

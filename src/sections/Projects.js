@@ -2,7 +2,7 @@ import FirstProject from "../Projects/FirstProject"
 import SecondProject from "../Projects/SecondProject"
 import { Container } from "react-bootstrap"
 
-import "../App.css"
+import "./Projects.scss"
 
 const Projects = () => {
   return (

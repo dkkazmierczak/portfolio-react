@@ -1,0 +1,73 @@
+@import "../sass/main.scss";
+
+.About {
+  color: white;
+  .about {
+    padding: 250px 0;
+
+    ul {
+      margin: 100px 0;
+    }
+
+    .skills {
+      background-color: rgba(0, 0, 0, 0.2) !important;
+      -webkit-backdrop-filter: blur(8px) !important;
+      backdrop-filter: blur(8px) !important;
+      text-align: center;
+      padding: 40px;
+      border-radius: $borderRadius;
+      transition: all 150ms ease-in-out;
+      box-shadow: 0 5px 30px rgba(102, 46, 237, 0.7);
+
+      .icons {
+        font-size: 50px;
+        display: flex;
+        justify-content: space-evenly;
+
+        .icon-bootstrap {
+          color: $fourthColor;
+        }
+      }
+
+      .text {
+        font-size: 20px;
+        padding-top: 30px;
+      }
+
+      .link {
+        color: $thirdColor;
+        transition: $transition;
+      }
+
+      .link:hover {
+        color: $fourthColor;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .About {
+    .about {
+      padding: 100px 0;
+
+      ul {
+        margin: 0;
+      }
+
+      .skills {
+        padding: 30px;
+        max-width: 80%;
+        margin-top: 10px;
+
+        .icons {
+          font-size: 25px;
+        }
+
+        .text {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}

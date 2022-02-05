@@ -5,14 +5,16 @@ import Projects from "./sections/Projects"
 import Contact from "./sections/Contact"
 import Footer from "./sections/Footer"
 
-import "./App.css"
+import "./App.scss"
 
 const App = () => {
   return (
     <div className="App">
-      <Navbar />
-      <Hero />
-      <About />
+      <div className="container">
+        <Navbar />
+        <Hero />
+        <About />
+      </div>
       <Projects />
       <Contact />
       <Footer />

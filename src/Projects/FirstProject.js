@@ -1,5 +1,4 @@
 import ReactWeatherPicture from "../images/react-weather-app.png"
-import "../App.css"
 import React from "react"
 
 const FirstProject = () => {
@@ -13,10 +12,10 @@ const FirstProject = () => {
           <h2>React Weather App</h2>
           <p className="projects-p">
             React Weather App is a responsive website, showing current weather
-            and forecast for many cities in the world. Website was built in
-            React.
+            and forecast for many cities in the world.
             <br />
-            Website was built during 8 week workshop SheCodes React 👩🏼‍💻
+            Website was built in React during the 8 week long workshop SheCodes
+            React 👩🏼‍💻
           </p>
           <p className="projects-credit">
             Design & Development - Dominika Kaźmierczak
