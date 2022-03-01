@@ -1,3 +1,16 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import {
+  faLaptopCode,
+  faGraduationCap,
+} from "@fortawesome/free-solid-svg-icons"
+import {
+  faHtml5,
+  faCss3Alt,
+  faBootstrap,
+  faJsSquare,
+  faReact,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons"
 import "./About.scss"
 
 const About = () => {
@@ -12,7 +25,7 @@ const About = () => {
                 target="_blank"
                 title="LinkedIn Profile"
                 rel="noreferrer">
-                <i className="fab fa-linkedin"></i>
+                <FontAwesomeIcon icon={faLinkedin} />
               </a>
             </div>
             <div className="text">
@@ -29,7 +42,7 @@ const About = () => {
           </li>
           <li className="col-md-4 skills">
             <div className="icons">
-              <i className="fas fa-graduation-cap"></i>
+              <FontAwesomeIcon icon={faGraduationCap} />
             </div>
             <div className="text">
               Bachelor's degree in Mathematics and cryptology
@@ -39,18 +52,19 @@ const About = () => {
         <ul className="row justify-content-around">
           <li className="col-md-4 skills">
             <div className="icons">
-              <i className="fab fa-html5 text-danger"></i>
-              <i className="fab fa-css3-alt text-primary"></i>
-              <i className="fab fa-js-square text-warning"></i>
+              <FontAwesomeIcon icon={faHtml5} className="text-danger" />
+              <FontAwesomeIcon icon={faCss3Alt} className="text-primary" />
+              <FontAwesomeIcon icon={faJsSquare} className="text-warning" />
+              <FontAwesomeIcon icon={faReact} className="text-primary" />
             </div>
             <div className="text">
-              Advanced knowledge about HTML, CSS and Java Script
+              Advanced knowledge about HTML, CSS, Java Script and React
             </div>
           </li>
           <li className="col-md-4 skills">
             <div className="icons">
-              <i className="fab fa-bootstrap icon-bootstrap"></i>
-              <i className="fas fa-laptop-code text-info"></i>
+              <FontAwesomeIcon icon={faBootstrap} className="icon-bootstrap" />
+              <FontAwesomeIcon icon={faLaptopCode} className="text-info" />
             </div>
             <div className="text">
               I make responsive websites using Bootstrap or Media Query

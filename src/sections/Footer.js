@@ -1,4 +1,7 @@
 import { Container } from "react-bootstrap"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
+import { faLinkedin, faGithubSquare } from "@fortawesome/free-brands-svg-icons"
 import "./Footer.scss"
 
 const Footer = () => {
@@ -7,20 +10,20 @@ const Footer = () => {
       <Container>
         <div className="contact-links">
           <a href="mailto:dkl.kazmierczak@gmail.com">
-            <i className="fas fa-envelope" title="Email Dominika"></i>
+            <FontAwesomeIcon icon={faEnvelope} title="Email Link" />
           </a>
           <a
             href="https://github.com/dkkazmierczak"
             target="_blank"
             rel="noreferrer">
-            <i className="fab fa-github-square" title="GitHub Profile"></i>
+            <FontAwesomeIcon icon={faGithubSquare} title="GitHub Profile" />
           </a>
           <a
             href="https://www.linkedin.com/in/dkkazmierczak/"
             target="_blank"
             title="LinkedIn Profile"
             rel="noreferrer">
-            <i className="fab fa-linkedin"></i>
+            <FontAwesomeIcon icon={faLinkedin} title="LinkedIn Profile" />
           </a>
         </div>
       </Container>
